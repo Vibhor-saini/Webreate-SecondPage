@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+ 
+}
+
+.navbar .left img{
+    height: 60px;
+    top: 0px;
+    position: absolute;
+}
+.left span{
+    position: absolute;
+    color:  rgb(245, 134, 38);
+    left: 80px;
+    top: 10px;
+    font-size: 3rem;
+}
+
+.navbar .right {
+    background-color: rgb(245, 134, 38);
+    width: 20%;
+    height: 800px;
+   
+}
+
+.navbar .right hr{
+   margin-top: 20px;
+   width: 75%;
+  
+   
+}
+
+.navbar .right p{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    
+    margin-top: 10px;
+   
+}
+
+ .button #one{   
+    font-size: 20px;
+    color: black;
+    background-color:rgb(245, 134, 38) ;
+   
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 20px;
+   
+    padding: 4px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    transition: all 0.5s ease 0s;
+    border: none;
+    width: 75%;
+    cursor: pointer;
+    font-weight:bold;
+} 
+
+#one p{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#two p{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.button #one:after{
+background-color: black;
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 0%;
+height: 100%;
+z-index: -1;
+transition: all 0.5s ease 0s;
+}
+
+.button #one:hover{
+    color: rgb(245, 134, 38);
+}
+.button #one:hover:after{
+    width: 100%;
+}
+
+/* Appointment Button Css */
+
+.button #two{   
+    font-size: 20px;
+    color: black;
+    background-color:rgb(245, 134, 38) ;
+   
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 10px;
+   
+    padding: 4px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    transition: all 0.5s ease 0s;
+    border: none;
+    width: 75%;
+    cursor: pointer;
+} 
+
+.button #two:after{
+background-color: black;
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 0%;
+height: 100%;
+z-index: -1;
+transition: all 0.6s ease 0s;
+}
+
+.button #two:hover{
+    color: rgb(245, 134, 38);
+}
+.button #two:hover:after{
+    width: 100%;
+}
